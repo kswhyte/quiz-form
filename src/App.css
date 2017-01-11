@@ -1,0 +1,66 @@
+.App {
+  /*text-align: center;*/
+}
+
+.app-title {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 75px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.quiz-form-container {
+  margin: 20px;
+}
+
+.radio {
+  margin-left: 20px;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.submit-button {
+  margin: 15px 10px;
+  padding: 5px 13px;
+  display: block;
+  align-items: center;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 3px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
